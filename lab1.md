@@ -11,9 +11,9 @@ Simply open up VSC and leave it blank as of now, there is no need to create a ne
 **YOU MUST INSTALL GIT IN ORDER TO ACCESS THE REMOTE SERVER THROUGH VSC**
 * Listed here is a link to install Git for Windows
 
-![Link](https://gitforwindows.org)
+[Link](https://gitforwindows.org)
 * Install git, then afterwards set your terminal in VSC to utilize git bash, here is a guide
 
-![Link](https://stackoverflow.com/a/50527994)
+[Link](https://stackoverflow.com/a/50527994)
 * **Note: You can avoid all of this setup work if you simply use the computers provided in the lab, it is much simpler.**
 ## Connecting
