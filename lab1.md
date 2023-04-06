@@ -1,13 +1,16 @@
 # CSE 15L Beginner Tutorial
+
 Welcome to **CSE 15L**, compared to the previous class of either CSE 8B or CSE 11, this course will be drastically different in ways that had been described before during lecture.
 ## Setting up your account for lab.
+
 * First, head over to [Link](https://sdacs.ucsd.edu/~icc/index.php) and lookup your account.
 * Afterwards, you must reset your password for your username that'll you'll be using in the lab, it should start with cs15l... and reset it through the global password change tool that was provided on the site.
 * You **MUST** reset your password in order to access the server through VSC terminal in the future.
 ## Setting up VSC for access.
+
 Simply open up VSC and leave it blank as of now, there is no need to create a new repository at this time
 
-![Image](https://i.stack.imgur.com/GBKdN.png)
+![Image](https://i.ibb.co/gJzG3jy/Screenshot-2023-04-06-094544.png)
 
 **YOU MUST INSTALL GIT IN ORDER TO ACCESS THE REMOTE SERVER THROUGH VSC**
 * Listed here is a link to install Git for Windows
@@ -18,6 +21,7 @@ Simply open up VSC and leave it blank as of now, there is no need to create a ne
 [Link](https://stackoverflow.com/a/50527994)
 * **Note: You can avoid all of this setup work if you simply use the computers provided in the lab, it is much simpler.**
 ## Connecting
+
 Now, it's finally time to connect. Open up a terminal through VSC and type in the following command
 
 `ssh (your CS15L username)@ieng6.ucsd.edu`
@@ -37,3 +41,18 @@ After it has finished setting up, your terminal should look something like this.
 If things did not work out this smoothly reach out for help because I was fine setting up. Your problem not mine lol.
 
 ## Running commands
+
+There are quite a lot of commands to use, I believed to have derived from linux.
+
+Here are a few:
+* `cd ~ `
+* `cd (directory nname) `
+* `ls`
+* `ls (directory)`
+* `cat (file)`
+* `pwd`
+* `cp (file)(directory path)`
+
+Here is an output of the commands I ran and what it had for outputs.
+![Image](https://i.ibb.co/s6wk97z/Screenshot-2023-04-06-094947.png)
+![Image](https://i.ibb.co/s6wk97z/Screenshot-2023-04-06-094947.png)
