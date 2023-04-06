@@ -56,3 +56,5 @@ Here are a few:
 Here is an output of the commands I ran and what it had for outputs.
 ![Image](https://i.ibb.co/s6wk97z/Screenshot-2023-04-06-094947.png)
 ![Image](https://i.ibb.co/rZfnnWR/Screenshot-2023-04-06-095004.png)
+
+Play with this a little bit, and when you are done, type exit into the terminal and you'll logout of the remote access.
