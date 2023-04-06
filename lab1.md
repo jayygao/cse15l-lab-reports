@@ -6,6 +6,7 @@ Welcome to **CSE 15L**, compared to the previous class of either CSE 8B or CSE 1
 * You **MUST** reset your password in order to access the server through VSC terminal in the future.
 ## Setting up VSC for access.
 Simply open up VSC and leave it blank as of now, there is no need to create a new repository at this time
+
 ![Image](https://i.stack.imgur.com/GBKdN.png)
 
 **YOU MUST INSTALL GIT IN ORDER TO ACCESS THE REMOTE SERVER THROUGH VSC**
