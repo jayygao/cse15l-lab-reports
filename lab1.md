@@ -30,7 +30,7 @@ It'll now prompt you to type in the password, this is important as we had just r
 
 After it has finished setting up, your terminal should look something like this.
 
-![Image](https://ibb.co/ChHVRgX)
+![Image](https://i.ibb.co/6gWDjzp/Screenshot-2023-04-06-093659.png)
 
 **We are now connected!**
 
