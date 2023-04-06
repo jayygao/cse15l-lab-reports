@@ -18,3 +18,22 @@ Simply open up VSC and leave it blank as of now, there is no need to create a ne
 [Link](https://stackoverflow.com/a/50527994)
 * **Note: You can avoid all of this setup work if you simply use the computers provided in the lab, it is much simpler.**
 ## Connecting
+Now, it's finally time to connect. Open up a terminal through VSC and type in the following command
+
+`ssh (your CS15L username)@ieng6.ucsd.edu`
+
+Once logged in, it'll prompt a message regarding something about the authenticity of host... and asking you to continue (yes/no)
+
+Just type yes and proceed lol
+
+It'll now prompt you to type in the password, this is important as we had just resetted our password for our CSE15L account, use the new password and type it in. Allow the terminal to work its magic. 
+
+After it has finished setting up, your terminal should look something like this.
+
+![Image](https://ibb.co/ChHVRgX)
+
+**We are now connected!**
+
+If things did not work out this smoothly reach out for help because I was fine setting up. Your problem not mine lol.
+
+## Running commands
