@@ -60,4 +60,4 @@ Here is an output of the commands I ran and what it had for outputs.
 Play with this a little bit, and when you are done, type exit into the terminal and you'll logout of the remote access.
 
 ---
-This is all I know what to do at the momen to my knowledge, more will be added later on.
+This is all I know what to do at the momen to my knowledge, more will be added later on. Goodluck!
