@@ -7,6 +7,7 @@ Below I have attached photos of my code.
 ![Image](https://i.gyazo.com/f3c9d4efcee93ffd8d31f31589b111e7.png)
 ![Image](https://i.gyazo.com/999bd5ab558c9e564989707489616aba.png)
 
+---
 For the screenshots attached below, it shows the method handleRequest being called, with the argument of /add-messages
 
 It is called multiple times as I add new messages, which is saved through the "words" arraylist, and the String "ret"
@@ -35,6 +36,7 @@ through the String "ret".
 
 ---
 I also added my own argument "/clear" which removes every element from the Arraylist "words", and sets the String "ret" to empty.
+
 ![Image](https://i.gyazo.com/b50fc50977d8f2d40ada555ea228a9e1.png)
 ![Image](https://i.gyazo.com/b05fa3ed3bd4fcc6bf770b64d3963b4a.png)
 ![Image](https://i.gyazo.com/597ceeb86744c0002f1b4c8c12dc9897.png)
@@ -56,6 +58,7 @@ Below I have attached the code block of the failure inducing input.
 	}
 ```
 
+---
 Below I have attached the code block of a non-failure inducing input.
 
 ```
@@ -67,11 +70,13 @@ Below I have attached the code block of a non-failure inducing input.
 	}
 ```
 
+---
 Below I have attached an image of the output of the running tests.
 
 ![Image](https://i.gyazo.com/fca0e60f47711e57e0ac10a914ec9fa2.png)
 ![Image](https://i.gyazo.com/ee51fada62624370d070d17267e27116.png)
 
+---
 Below I have attached the code before the bug was fixed.
 
 ```
@@ -82,6 +87,7 @@ Below I have attached the code before the bug was fixed.
   }
 ```
 
+---
 Below I have attached the code after the bug was fixed.
 
 ```
@@ -103,6 +109,7 @@ Below I have attached the code after the bug was fixed.
   }
 ```
 
+---
 ### But what's the issue? 
 
 The issue is that the method before it was fixed would make the array go in reverseOrder
