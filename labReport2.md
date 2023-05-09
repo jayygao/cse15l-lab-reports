@@ -2,7 +2,7 @@
 
 ## Part 1
 
-Below I have attached photos of my code.
+Below I have attached my code.
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -147,15 +147,11 @@ Below I have attached the code after the bug was fixed.
 ```
   static void reverseInPlace(int[] arr) {
     if(arr.length > 1){
-      int val = arr[0];
-      int val2 = arr[arr.length - 1]; 
-
-      for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];  
-      } 
-
-      arr[0] = val2;
-      arr[arr.length - 1] = val;
+      for(int i = 0; i < arr.length / 2; i++){
+          int temp = arr[i];
+          arr[i] = arr[arr.length - i - 1];
+          arr[arr.length - i - 1] = temp;
+      }
     }
     else{
       arr = arr;
@@ -166,15 +162,7 @@ Below I have attached the code after the bug was fixed.
 ---
 ### But what's the issue? 
 
-The issue is that the method before it was fixed would make the array go in reverseOrder
-
-however the last value in the array would remain the same, instead of changing with the first value because
-
-it updates itself with the first value AFTER the first value was replaced. Which means nothing changed.
-
-For example, in an array {0, 1, 2}, it'll change the first value with 2, then middle value with 1, and the 
-
-last value remains 2 because in the first value became 2, it didn't remain as 0. Giving us {2, 1, 2}
+The issue with the old code is that it moves the values from the end of the code to the beginning, however it doesn't move the values from the beginning of the code to the end. Leaving us with a half reversed array.
 
 ### My Fix
 
