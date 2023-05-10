@@ -20,7 +20,8 @@
        911report/chapter-5.txt
        911report/chapter-6.txt
        911report/chapter-7.txt
-       911report/chapter-8.txt ```
+       911report/chapter-8.txt 
+   ```
        
     ii. ```$ find government/About_LSC -iname "legal*.txt"```
     
@@ -28,7 +29,8 @@
     ```
     government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
     government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
-    government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt```
+    government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+    ```
     
     Importance? The importance of the ```-iname``` option is that instead of the ```-name``` command
     
