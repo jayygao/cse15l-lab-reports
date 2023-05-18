@@ -1,5 +1,5 @@
-## Lab Report 4
-### Forking
+# Lab Report 4
+## Forking
 I forked the repository 
 
 ```https://github.com/ucsd-cse15l-s23/lab7```
@@ -10,7 +10,7 @@ and got my ssh clone command
 
 now I can proceed with logging onto ieng6.
 
-### ieng6
+## ieng6
 First I logged in with copying 
 
 ```ssh cs15lsp23ea@ieng6.ucsd.edu``` <enter>
@@ -111,4 +111,4 @@ To github.com:jayygao/lab7.git
 
 Now I'm finally done! That's the end of this lab report.
 
-## Final Time from Timer: 01:53:07.
+### Final Time from Timer: 01:53:07.
