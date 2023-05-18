@@ -1,4 +1,4 @@
-##Lab Report 4
+## Lab Report 4
 ### Forking
 I forked the repository 
 
@@ -10,7 +10,7 @@ and got my ssh clone command
 
 now I can proceed with logging onto ieng6.
 
-###ieng6
+### ieng6
 First I logged in with copying 
 
 ```ssh cs15lsp23ea@ieng6.ucsd.edu``` <enter>
