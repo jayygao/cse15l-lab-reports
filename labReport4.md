@@ -13,11 +13,11 @@ now I can proceed with logging onto ieng6.
 ## ieng6
 First I logged in with copying 
 
-```ssh cs15lsp23ea@ieng6.ucsd.edu``` <enter>
+```ssh cs15lsp23ea@ieng6.ucsd.edu <enter>```
 
 and pasting with 
 
-<Ctrl> <Shift> <V> <enter>
+```<Ctrl> <Shift> <V> <enter>```
 
 because <Ctrl> <V> wouldn't work in ssh command line.
 
@@ -27,11 +27,11 @@ Logged in with ieng6, then I git cloned my fork onto ieng6 with the command
 
 after the clone was finished, I went into the directory of my repository with the command 
 
-```cd lab7``` <enter> 
+```cd lab7 <enter> ```
 
 Here, to run the tests I used the test.sh bash file to make things quicker, the command was
 
-```bash test.sh``` <enter>
+```bash test.sh <enter>```
 
 within test.sh was the commands 
 
@@ -58,19 +58,19 @@ Tests run: 2,  Failures: 1
 
 Knowing what the erro was, I went into ListExamples.java to fix the error, the command was...
 
-```vim ListExamples.java``` <enter>
+```vim ListExamples.java <enter>```
 
-In here, I used the keys <h> <j> <k> <l> to navigate around.
+In here, I used the keys ```<h> <j> <k> <l>``` to navigate around.
 
-Which was <left> <left> <left> <left> <left> <left> and ```dw``` <enter> to delete the "index1"
+Which was ```<left> <left> <left> <left> <left> <left>``` and ```dw <enter>``` to delete the "index1"
 
-I then clicked i to insert "index2" and <esc> to return to normal mode, then ```:wq!``` <enter> to save 
+I then clicked i to insert "index2" and ```<esc>``` to return to normal mode, then ```:wq <enter>``` to save 
 
 my changes and return back to the lab7 directory.
 
 Here, I ran the test.sh bashg file again to run the tests to ensure there were no errors.
 
-```bash test.sh``` <enter>
+```bash test.sh <enter>```
 
 and I was returned with the test results
 
@@ -84,15 +84,15 @@ OK (2 tests)
 
 Indicating my tests had passed, here I then added the files I changed to commit with git.
 
-```git add ListExamples.java``` <enter>
+```git add ListExamples.java <enter>```
 
 Now I can commit the changes.
 
-```git commit -m "Fixed Index"``` <enter>
+```git commit -m "Fixed Index" <enter>```
 
 Finally I pushed the changes onto GitHub
 
-```git push``` <enter>
+```git push <enter>```
 
 I was returned with...
 
