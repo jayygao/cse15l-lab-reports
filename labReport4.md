@@ -4,7 +4,7 @@
 
 I forked the repository 
 
-```https://github.com/ucsd-cse15l-s23/lab7```
+https://github.com/ucsd-cse15l-s23/lab7
 
 and got my ssh clone command
 
