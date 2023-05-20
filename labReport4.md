@@ -25,7 +25,7 @@ because `<Ctrl> <V>` wouldn't work in ssh command line.
 
 Logged in with ieng6, then I git cloned my fork onto ieng6 with the command
 
-`git clone git@github.com:jayygao/lab7.git <enter>'
+`git clone git@github.com:jayygao/lab7.git <enter>`
 
 after the clone was finished, I went into the directory of my repository with the command 
 
@@ -37,14 +37,14 @@ Here, to run the tests I used the test.sh bash file to make things quicker, the 
 
 within test.sh was the commands 
 
-`
+```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests  
-`
+```
 
 I was then returned with the error 
 
-`
+```
 JUnit version 4.13.2
 ..E
 Time: 0.543
@@ -56,7 +56,7 @@ org.junit.runners.model.TestTimedOutException: test timed out after 500 millisec
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
-`
+```
 
 Knowing what the error was, I went into ListExamples.java to fix the error, the command was...
 
@@ -78,13 +78,13 @@ Here, I ran the test.sh bashg file again to run the tests to ensure there were n
 
 and I was returned with the test results
 
-`
+```
 JUnit version 4.13.2
 ..
 Time: 0.016
 
 OK (2 tests)
-`
+```
 
 ![Image](https://i.ibb.co/hCVNXbY/Screenshot-2023-05-18-095158.png)
         
