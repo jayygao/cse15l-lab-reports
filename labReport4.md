@@ -56,7 +56,7 @@ FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
 
-Knowing what the erro was, I went into ListExamples.java to fix the error, the command was...
+Knowing what the error was, I went into ListExamples.java to fix the error, the command was...
 
 ```vim ListExamples.java <enter>```
 
@@ -65,6 +65,8 @@ In here, I used the keys ```<h> <j> <k> <l>``` to navigate around.
 Which was ```<left> <left> <left> <left> <left> <left>``` and ```dw <enter>``` to delete the "index1"
 
 I then clicked i to insert "index2" and ```<esc>``` to return to normal mode, then ```:wq <enter>``` to save 
+
+![Image](https://i.ibb.co/bg7VQSv/Screenshot-2023-05-18-095232.png)
 
 my changes and return back to the lab7 directory.
 
@@ -82,6 +84,8 @@ Time: 0.016
 OK (2 tests)
 ```
 
+![Image](https://i.ibb.co/hCVNXbY/Screenshot-2023-05-18-095158.png)
+        
 Indicating my tests had passed, here I then added the files I changed to commit with git.
 
 ```git add ListExamples.java <enter>```
@@ -108,7 +112,8 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:jayygao/lab7.git
    c258751..7f996d4  main -> main
 ```
-
+![Image](https://i.ibb.co/kqznrrK/Screenshot-2023-05-18-095137.png)
+        
 Now I'm finally done! That's the end of this lab report.
 
 ### Final Time from Timer: 01:53:07.
