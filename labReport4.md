@@ -4,11 +4,11 @@
 
 I forked the repository 
 
-https://github.com/ucsd-cse15l-s23/lab7
+[Lab 7 Repository](https://github.com/ucsd-cse15l-s23/lab7)
 
 and got my ssh clone command
 
-```git@github.com:jayygao/lab7.git```
+`git@github.com:jayygao/lab7.git`
 
 now I can proceed with logging onto ieng6.
 
