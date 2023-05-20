@@ -102,7 +102,7 @@ Finally I pushed the changes onto GitHub
 
 I was returned with...
 
-`
+```
 Warning: Permanently added the ECDSA host key for IP address '140.82.114.3' to the list of known hosts.    
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
@@ -113,7 +113,8 @@ Total 3 (delta 2), reused 2 (delta 2), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:jayygao/lab7.git
    c258751..7f996d4  main -> main
-`
+```
+
 ![Image](https://i.ibb.co/kqznrrK/Screenshot-2023-05-18-095137.png)
         
 Now I'm finally done! That's the end of this lab report.
