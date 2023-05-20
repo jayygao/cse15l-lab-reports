@@ -21,7 +21,7 @@ and pasting with
 
 `<Ctrl> <Shift> <V> <enter>`
 
-because '<Ctrl> <V>' wouldn't work in ssh command line.
+because `<Ctrl> <V>` wouldn't work in ssh command line.
 
 Logged in with ieng6, then I git cloned my fork onto ieng6 with the command
 
