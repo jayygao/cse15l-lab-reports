@@ -2,6 +2,8 @@
 
 1. ```find DIRECTORY -iname FILE```
 
+     Option ```-delete```. Usage explained under examples.
+     
      i. ```$ find 911report -iname "Chapter*.txt"```
      
      Output :
@@ -40,6 +42,8 @@
 
 2. ```$ find DIRECTORY -size +SIZE```
 
+     Option ```-size```. Usage explained under examples.
+
      i. ```$ find 911report -size +100k```
      
      Output : 
@@ -67,7 +71,9 @@
      
      on the files size, for megabytes it's +(Value)M, kilobytes it's +(Value)k.
      
-3. ```$ find DIRECTORY -name "FILE" -delete```\
+3. ```$ find DIRECTORY -name "FILE" -delete```
+     
+     Option ```-delete```. Usage explained under examples.
 
       i. ```$ find 911report -name "preface.txt" -delete``` & ```$ ls 911report```
      
@@ -129,11 +135,22 @@ All these command options were given to me by [ChatGPT](https://chat.openai.com/
 " find 4 interesting command-line options or alternate ways to use the command 'find' "
 
 And I was provided with these 4 command options for ```-find```.
-    
+
+```
+Here are four interesting command-line options or alternate ways to use the find command:
      
-     
-     
-     
+    1. -iname: This option performs a case-insensitive search for a file or directory by name. For example, find /home/user        -iname "file.txt" will find all files named file.txt, regardless of capitalization, in the /home/user directory and         its subdirectories.
+    2. -mtime: This option searches for files that were modified a certain number of days ago. For example, find /home/user
+       -mtime -7 will find all files in the /home/user directory and its subdirectories that were modified within the last         7 days.
+    3. -size: This option searches for files based on their size. You can use it to find files that are larger or smaller          than a certain size. For example, find /home/user -size +10M will find all files in the /home/user directory and its        subdirectories that are larger than 10 megabytes.
+    4. -delete: This option allows you to delete files that match the search criteria directly from the find command. For           example, find /home/user -name "*.bak" -delete will find all files in the /home/user directory and its          
+        subdirectories that end in .bak and delete them. Note that this option can be dangerous, as it will delete files
+        without prompting for confirmation.
+```
+
+The only thing I changed was the size option which ChatGPT searched by megabytes, while I searched by kilobytes. As well as 
+
+mtime option where I searched within 1 day instead of 7 days.
      
  
    
