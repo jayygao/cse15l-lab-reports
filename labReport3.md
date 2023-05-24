@@ -173,9 +173,7 @@ Here are four interesting command-line options or alternate ways to use the find
         without prompting for confirmation.
 ```
 
-The only thing I changed was the size option which ChatGPT searched by megabytes, while I searched by kilobytes. As well as 
-
-mtime option where I searched within 1 day instead of 7 days.
+The only thing I changed was the size option which ChatGPT searched by megabytes, while I searched by kilobytes. As well as mtime option where I searched within 1 day instead of 7 days.
      
  
    
