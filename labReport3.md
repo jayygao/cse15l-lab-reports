@@ -2,7 +2,7 @@
 
 1. ```find DIRECTORY -iname FILE```
 
-     Option ```-delete```. Usage explained under examples.
+     Option ```-iname```. Usage explained under examples.
      
      i. ```$ find 911report -iname "Chapter*.txt"```
      
@@ -105,6 +105,9 @@
      going through the directories.
      
 4. ```find DIRECTORY  -mtime -VALUE```
+
+     Option ```-mtime```. Usage explained under examples.
+     
      i. ```$ find 911report -mtime -1```
      
      Output : 
