@@ -1,10 +1,12 @@
-## Find Commands
+## Find Commands Options
 
 1. ```find DIRECTORY -iname FILE```
 
      Option ```-iname```. Usage explained under examples.
      
      i. ```$ find 911report -iname "Chapter*.txt"```
+     
+     I am trying to find all txt files starting with chapter, regardless of its capitlization in the directory 911report.
      
      Output :
      ```
@@ -27,6 +29,10 @@
        
     ii. ```$ find government/About_LSC -iname "legal*.txt"```
     
+    I am trying to find all txt files starting with legal, regardless of its capitlization in the directory 
+    
+    government/About_LSC.
+    
     Output : 
     ```
     government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
@@ -46,6 +52,8 @@
 
      i. ```$ find 911report -size +100k```
      
+     I am trying to find any files bigger than 100 kilobytes in the directory 911report.
+     
      Output : 
      ```
      911report/chapter-1.txt
@@ -62,6 +70,8 @@
      
      ii. ```$ find government/About_LSC -size +200k```
      
+     I am trying to find any files bigger than 200 kilobytes in the directory government/About_LSC.
+     
      Output :
      ```
      government/About_LSC/commission_report.txt
@@ -76,6 +86,10 @@
      Option ```-delete```. Usage explained under examples.
 
       i. ```$ find 911report -name "preface.txt" -delete``` & ```$ ls 911report```
+      
+      I am trying to delete the file called preface.txt, and listing the files in the 911report
+      
+      directory after the delete.
      
      Output :
      ```
@@ -86,6 +100,10 @@
      ```
      
      ii. ```$ find government/Env_Prot_Agen -name "final.txt" -delete``` & ```$ ls government/Env_Prot_Agen```
+     
+     I am trying to delete the file called final.txt, and listing the files in the government/Env_Prot_Agen
+      
+     directory after the delete.
      
      Output : 
      ```
@@ -110,6 +128,8 @@
      
      i. ```$ find 911report -mtime -1```
      
+     I am trying to find all files that has been edited in the past 1 day in the directory 911report.
+     
      Output : 
      ```
      911report
@@ -117,6 +137,8 @@
      ```
      
      ii. ```$ find government -mtime -1
+     
+     I am trying to find all files that has been edited in the past 1 day in the directory government.
      
      Output : 
      ```
