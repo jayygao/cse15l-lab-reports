@@ -73,10 +73,12 @@ In here, I used the keys `<h> <j> <k> <l>` to navigate around.
 `<k>` - up
 `<l>` - right
 
+A screenshot of the code file is provided below the instructions I used to edit the file, please read carefully. It'll display the file and I have written the steps to go through the file and edit it.
+
 Since I started on the top of the file, I clicked `<h>` (down) 41 times to get to the line with the error, which was index1 += 1, we want to change it to index2 instead of index 1.
 
 Now I clicked `<l>` (right) six times to get to the beginning of the word "index1".
-        
+     
 I then typed in `dw <enter>` in order the delete the word "index1", the command 'dw' is basically "delete word".
 
 I then clicked `i` to insert "index2" and `<esc>` to return to normal mode, then `:wq <enter>` to save 
