@@ -1,5 +1,7 @@
 # Lab Report 4
 
+Please read everything carefully, I have provided thorough instructions and steps as well as examples, I have seen errors in grading in my past lab reports which caused me to lose points. 
+
 ## Forking
 
 I forked the repository 
