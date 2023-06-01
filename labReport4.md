@@ -73,13 +73,13 @@ In here, I used the keys `<h> <j> <k> <l>` to navigate around.
 `<k>` - up
 `<l>` - right
 
-Since I started on the top of the file, I clicked '<h>' (down) 41 times to get to the line with the error, which was index1 += 1, we want to change it to index2 instead of index 1.
+Since I started on the top of the file, I clicked `<h>` (down) 41 times to get to the line with the error, which was index1 += 1, we want to change it to index2 instead of index 1.
 
-Now I clicked '<l>' (right) six times to get to the beginning of the word "index1".
+Now I clicked `<l>` (right) six times to get to the beginning of the word "index1".
         
 I then typed in `dw <enter>` in order the delete the word "index1", the command 'dw' is basically "delete word".
 
-I then clicked 'i' to insert "index2" and `<esc>` to return to normal mode, then `:wq <enter>` to save 
+I then clicked `i` to insert "index2" and `<esc>` to return to normal mode, then `:wq <enter>` to save 
 
 ![Image](https://i.ibb.co/bg7VQSv/Screenshot-2023-05-18-095232.png)
 
